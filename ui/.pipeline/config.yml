@@ -1,0 +1,10 @@
+steps:
+  mtaBuild:
+    buildTarget: 'NEO'
+    MTA_HOME: '/opt/sap/mta/lib/mta.jar'
+  neoDeploy:
+    NEO_HOME: '/opt/sap/neo-sdk/'
+    neo:
+      credentialsId: 'CI_CREDENTIALS_ID'
+      account: 'a533b9d89'
+      host: 'eu1.hana.ondemand.com'
